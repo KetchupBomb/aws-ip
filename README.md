@@ -1,7 +1,5 @@
 # AWS IP
 
----
-
 A simple tool to determine if an IP Address belongs to Amazon.
 
 I built this as part of a blog post and is just a toy project.
