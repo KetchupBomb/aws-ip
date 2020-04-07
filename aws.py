@@ -25,5 +25,5 @@ def is_aws_ip(ip):
 
 if __name__ == "__main__":
     ret = is_aws_ip(sys.argv[1])
-    print(json.dumps(ret, indent=2))
+    print(json.dumps(ret))
     exit(0 if ret else 1)
