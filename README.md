@@ -23,7 +23,7 @@ $ python3 aws.py 2406:da1c::0
 
 > Note IPv6 support.
 
-Or from the Docker image:
+Or from [the Docker image](https://hub.docker.com/r/ketchupbomb/aws-ip):
 
 ```shell
 $ docker run --rm ketchupbomb/aws-ip amazon.com | jq
