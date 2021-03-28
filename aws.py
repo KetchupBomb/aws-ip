@@ -28,7 +28,7 @@ def is_aws_ip(*ips):
 
 
 if __name__ == "__main__":
-    ips = [s[4][0] for s in socket.getaddrinfo(sys.argv[1], 0)]
+    ips = {s[4][0] for s in socket.getaddrinfo(sys.argv[1], None)}
     ret = is_aws_ip(*ips)
     print(json.dumps(ret))
     exit(0 if ret else 1)
